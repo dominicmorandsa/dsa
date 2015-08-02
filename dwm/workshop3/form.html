@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+
+		<style type="text/css">
+		   fieldset{
+		      width: 450px;
+		      clear: both;
+		      padding: 5px;
+		   }
+		   legend{
+		      font-size: 30px;
+		   }
+		      
+		   label{
+		      text-align: right;
+		      width: 100px;
+		      float: left;
+		   }
+		   input{
+		      width: 200px; 
+		   }
+
+		</style>
+		<title>form</title>
+	</head>
+
+	<body>
+		<!-- A list of links for navigation at the top of each page -->
+		<ul>	
+			<li><a href="dominic_moran.html">Home</a></li>
+			<li><a href="films.html">Action Films</a></li>
+			<li><a href="recipe.html">Recipe</a></li>
+			<li><a href="media.html">Media</a></li>
+			<li><a href="form.html">Form</a></li>
+		</ul>
+		<h1>Form</h1>
+		
+		<form action="server.php" method="post">
+			
+			<fieldset>
+				<legend>Login Details</legend>
+
+				<p>
+					<label for="firstName">First Name:</label>
+					<input type="text" id="firstName" name="firstName" autofocus autocomplete="on" required value=""/>
+				</p>
+
+				<p>
+					<label for="lastName">Last Name:</label>
+					<input type="text" id="lastName" name="lastName" autocomplete="on" required value=""/>
+				</p>
+
+				<p>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" autocomplete="on" value=""/>
+				</p>
+				<p>
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password"/>
+				</p>
+
+			</fieldset>
+
+			<fieldset>
+				<legend>Personal</legend>
+
+				<p>
+					<label for="url">Home Page:</label>
+					<input type="url" id="url" name="url" placeholder="Enter url"/>
+				</p>
+
+				<p>
+					<label>Age:</label>
+					<input type="number" id="age" name="age" min="13" max="100" />
+				</p>
+
+				<p>
+					<label for="phone">Telephone:</label>
+					<input type="text" id="phone" name="phone" pattern="^08\d{8}" title="Ten digits beginning with 08"/>
+				</p>
+				<p>
+					<label for="passport">Passport:</label>
+					<input type="text" id="passport" name="passport" pattern="^[A-Z]{2}\d{7}" title="Two uppercase letters followed by 7 digits" />
+				</p>
+
+			</fieldset>
+
+			<fieldset>
+				<legend>Others</legend>
+
+				<p>
+					<label for="slider">Volume:</label>
+					<input type="range" min="0" max="100" id="slider" name="slider" />
+				</p>
+
+				<p>
+					<label for="date">Date:</label>
+					<input type="date" id="date" name="date" />
+
+				</p>
+
+				<p>
+					<label>Currency:</label>
+					<input list="currency"  name="currency" />
+						<datalist id="currency">
+							<option value="Euro">
+							<option value="Dollar">
+							<option value="Yen">
+							<option value="Pound">
+						</datalist>
+				</p>
+
+				<p>
+					<label for="browsers">Browsers:</label>
+					<select id="browsers" name="browsers">
+						<optgroup label="Main">
+							<option>Chrome</option>
+							<option>Firefox</option>
+						</optgroup>
+						<optgroup label="Others">
+							<option>IE</option>
+							<option>Safari</option>
+						</optgroup>
+					</select>
+				</P>
+
+				<p>
+					<input type="radio" name="beverage" value="tea" />Tea<br/>
+					<input type="radio" name="beverage" value="coffee" />Coffee<br/>
+					<input type="radio" name="beverage" value="water" />Water<br/>
+					<input type="radio" name="beverage" value="beer" />Beer<br/>
+				</p>
+
+				<p>
+					<input type="checkbox" name="vegetables" value="cabbage" />Cabbage<br/>
+					<input type="checkbox" name="vegetables" value="carrots" />Carrots<br/>
+					<input type="checkbox" name="vegetables" value="peas" />
+					Peas<br/>
+					<input type="checkbox" name="onions" value="onions" />
+					Onions<br/>
+				</p>
+
+				<p>
+					<label for="picker">Colour:</label>
+					<input type="color" id="picker" name="picker" />
+
+				</p>
+
+			</fieldset>
+
+			<p>
+				<input type="submit" name="Submit"/>
+			</p>
+
+		</form>
+		
+	</body>
+</html>

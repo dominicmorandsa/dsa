@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>CSS Regions Template</title>
+		<style type="text/css">
+
+			.myRegion{
+			margin: 0 20px 0 0;
+			background: #EEE8AA;
+			padding: 20px;
+			}
+			#region1{
+			width: 30%;
+			height: 200px;
+			float: left;
+			}
+			#region2{
+			position: absolute;
+			top:200px;
+			left:400px;
+			width: 20%;
+			height: 150px;
+			}
+			#region3{
+			width: 20%;
+			height: 100px;
+			}
+			#container{
+			padding: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<p>CSS Regions...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+		</div>
+		<div id="container">
+			<div id="region1" class="myRegion"></div>
+			<div id="region2" class="myRegion"></div>
+			<div id="region3" class="myRegion"></div>
+		</div>
+	</body>
+</html>

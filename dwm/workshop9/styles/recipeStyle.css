@@ -1,0 +1,14 @@
+.threeColumns {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	-o-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 15px;
+	-moz-column-gap: 15px;
+	-o-column-gap: 15px;
+	column-gap: 15px;
+	-webkit-column-rule: 2px solid gray;
+	-moz-column-rule: 2px solid gray;
+	-o-column-rule: 2px solid gray;
+	column-rule: 2px solid gray;
+}

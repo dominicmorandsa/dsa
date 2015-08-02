@@ -1,0 +1,46 @@
+/* CV for Curriculum Vitae*/
+h1.CVtitle {
+    font-size: 30px;
+    font-family: georgia;
+    color: #ff0000;            
+}
+
+h2.CVheading {
+    font-size: 18px;
+    font-family: arial;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+p.CVparagraph {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #888888;
+ }
+
+ p#footer {
+    font-family: courier;
+    text-align: center;
+    color: #ff0000;
+ }
+
+/* PF for Portfolio */
+h1.PFtitle {
+    font-size: 36px;
+    font-family: georgia;
+    color: #0000ff;            
+}
+
+h2.PFheading {
+    font-size: 25px;
+    font-family: courier;
+    color: #0000ff;
+    font-weight: bold;
+}
+
+p.PFparagraph {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #000000;
+    text-indent: 50px;
+}

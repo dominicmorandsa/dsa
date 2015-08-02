@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body
+{
+margin:20px auto 20px auto;
+width:900px; /* width has been altered */
+height:900px;
+}
+
+article {
+	width: 400px;
+}
+
+aside {
+	float: right;
+	width: 200px;
+}
+header {
+	font-size: 18px;
+}
+nav ul li {
+	display: inline;
+}
+table {
+	border: solid 1px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th {
+	border: solid 1px;
+	padding: 10px;
+	text-align: left;
+}
+td {
+	border: solid 1px;
+	padding: 5px;
+}
