@@ -1,0 +1,16 @@
+{
+	"albums": [
+		{
+			"artist": "xyz",
+			"title": "123"
+		},
+		{
+			"artist": "def",
+			"title": "456"
+		},
+		{
+			"artist": "ghi",
+			"title": "789"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{"philosophers":[
+	{
+		"id": "Anaxagoras",
+		"name": "Anaxagoras of Clazomenae",
+		"place": "Clazomenae",
+		"born": "500 BCE",
+		"died": "428 BCE",
+		"bio": "Anaxagoras was a Greek mathematician famed as the first to introduce philosophy to the Athenians. He was imprisoned for claiming that the Sun was not a god and that the Moon reflected the Sun's light.",
+		"img": "Anaxagoras.jpg"
+	},
+	{
+		"id": "Anaximander",
+		"name": "Anaximander of Miletus",
+		"place": "Miletus",
+		"born": "611 BCE",
+		"died": "546 BCE",
+		"bio": "Anaximander of Miletus was a Greek scholar who first proposed that the sun, moon and planets revolved around the earth. He invented the gnomon of a sun-dial. ",
+		"img": "Anaximander.jpg"
+	},
+	{
+		"id": "Democritus",
+		"name": "Democritus",
+		"place": "Abdera",
+		"born": "460 BCE",
+		"died": "370 BCE",
+		"bio": "Democritus was an influential Ancient Greek pre-Socratic philosopher primarily remembered today for his formulation of an atomic theory of the universe.",
+		"img": "Democritus.jpg"
+	},
+	{
+		"id": "Empedocles",
+		"name": "Empedocles",
+		"place": "Agrigento",
+		"born": "490 BCE",
+		"died": "430 BCE",
+		"bio": "Empedocles is the source of the Classical idea that the universe is composed of four elements: Earth, Water, Air, and Fire.",
+		"img": "Empedocles.jpg"
+	},
+	{
+		"id": "Thales",
+		"name": "Thales",
+		"place": " Miletus",
+		"born": "624 BCE",
+		"died": "546 BCE",
+		"bio": "Many, most notably Aristotle, regard him as the first philosopher in the Greek tradition.",
+		"img": "Thales.jpg"
+	},
+	{
+		"id": "Zeno",
+		"name": "Zeno of Elea",
+		"place": "Elea",
+		"born": "495 BCE",
+		"died": "430 BCE",
+		"bio": "Zeno is well-known today for his paradoxes which sought to demonstrate the falseness of sensory information and the impossibility of change.",
+		"img": "Zeno.jpg"
+	}
+]}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="tdlApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop 14</title>
+</head>
+<body>
+
+  <h2>To Do List</h2>
+  <div ng-controller="TDLController as tdList">
+    <ul>
+      <li ng-repeat="todo in tdList.tdItems">
+        {{todo.name}}  - {{todo.desc}}<a href="" ng-click="tdList.delItem($index)"> [ Delete ]</a>
+      </li>
+    </ul>
+    <form ng-submit="tdList.addItem()">
+      <input type="text" ng-model="tdList.name">
+      <input type="text" ng-model="tdList.desc">
+      <input type="submit" value="Add Item">
+      
+    </form>
+    
+  </div>
+  
+  <script type="text/javascript" src="js/angular.min.js"></script>
+  <script type="text/javascript" src="js/tdlCtrl.js"></script>
+</body>
+</html>

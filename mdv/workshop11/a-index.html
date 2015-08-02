@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Worksho 11</title>
+  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+</head>
+<body>
+
+
+<input id="search" type="search">
+
+  <div id="images"></div>
+  
+
+
+
+  <script type="text/javascript">
+
+  var searchTerm = "";
+    $('#search').change(function() {
+      $('#search').val();
+    });
+
+  (function () {
+    var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+    $.getJSON(flickerAPI, {
+      tags: searchTerm,
+      tagmode: "any",
+      format: "json"
+    })
+    .done(function(data) {
+      $.each(data.items, function(i, item) {
+        $("<img>").attr("src", item.media.m).appendTo("#images");
+        if (i === 3) {
+          return false;
+        }
+      });
+    });
+  })();
+
+  </script>
+</body>
+</html>
